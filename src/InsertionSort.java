@@ -7,6 +7,7 @@ public class InsertionSort {
             x = array[i];
             pos = i;
             while(pos > 0 && x < array[pos-1]){
+                System.out.println("\ndua " + x + " len truoc " + array[pos - 1]);
                 array[pos] = array[pos-1]; // đổi chỗ
                 pos--;
             }
